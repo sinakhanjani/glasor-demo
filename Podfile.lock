@@ -1,0 +1,186 @@
+PODS:
+  - Alamofire (4.7.3)
+  - AlamofireImage (3.4.1):
+    - Alamofire (~> 4.7)
+  - Berry (0.1.9)
+  - BetterSegmentedControl (1.0.1)
+  - CDAlertView (0.9.1)
+  - Charts (3.2.1):
+    - Charts/Core (= 3.2.1)
+  - Charts/Core (3.2.1)
+  - Cosmos (17.0.0)
+  - DropDown (2.3.9)
+  - Dropdowns (2.0.0)
+  - Firebase/Core (5.10.0):
+    - Firebase/CoreOnly
+    - FirebaseAnalytics (= 5.2.0)
+  - Firebase/CoreOnly (5.10.0):
+    - FirebaseCore (= 5.1.5)
+  - Firebase/Messaging (5.10.0):
+    - Firebase/CoreOnly
+    - FirebaseMessaging (= 3.2.0)
+  - FirebaseAnalytics (5.2.0):
+    - FirebaseCore (~> 5.1)
+    - FirebaseInstanceID (~> 3.2)
+    - GoogleAppMeasurement (~> 5.2)
+    - GoogleUtilities/AppDelegateSwizzler (~> 5.2)
+    - GoogleUtilities/MethodSwizzler (~> 5.2)
+    - GoogleUtilities/Network (~> 5.2)
+    - "GoogleUtilities/NSData+zlib (~> 5.2)"
+    - nanopb (~> 0.3)
+  - FirebaseCore (5.1.5):
+    - GoogleUtilities/Logger (~> 5.2)
+  - FirebaseInstanceID (3.2.2):
+    - FirebaseCore (~> 5.1)
+    - GoogleUtilities/Environment (~> 5.3)
+    - GoogleUtilities/UserDefaults (~> 5.3)
+  - FirebaseMessaging (3.2.0):
+    - FirebaseCore (~> 5.0)
+    - FirebaseInstanceID (~> 3.0)
+    - GoogleUtilities/Environment (~> 5.2)
+    - GoogleUtilities/Reachability (~> 5.2)
+    - Protobuf (~> 3.1)
+  - GoogleAppMeasurement (5.2.0):
+    - GoogleUtilities/AppDelegateSwizzler (~> 5.2)
+    - GoogleUtilities/MethodSwizzler (~> 5.2)
+    - GoogleUtilities/Network (~> 5.2)
+    - "GoogleUtilities/NSData+zlib (~> 5.2)"
+    - nanopb (~> 0.3)
+  - GoogleMaps (2.7.0):
+    - GoogleMaps/Maps (= 2.7.0)
+  - GoogleMaps/Base (2.7.0)
+  - GoogleMaps/Maps (2.7.0):
+    - GoogleMaps/Base
+  - GooglePlaces (2.7.0):
+    - GoogleMaps/Base (= 2.7.0)
+  - GoogleUtilities/AppDelegateSwizzler (5.3.2):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (5.3.2)
+  - GoogleUtilities/Logger (5.3.2):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/MethodSwizzler (5.3.2):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/Network (5.3.2):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (5.3.2)"
+  - GoogleUtilities/Reachability (5.3.2):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/UserDefaults (5.3.2):
+    - GoogleUtilities/Logger
+  - ImageSlideshow (1.7.0):
+    - ImageSlideshow/Core (= 1.7.0)
+  - ImageSlideshow/Alamofire (1.7.0):
+    - AlamofireImage (~> 3.0)
+    - ImageSlideshow/Core
+  - ImageSlideshow/Core (1.7.0)
+  - iOSDropDown (0.2.6)
+  - nanopb (0.3.8):
+    - nanopb/decode (= 0.3.8)
+    - nanopb/encode (= 0.3.8)
+  - nanopb/decode (0.3.8)
+  - nanopb/encode (0.3.8)
+  - NVActivityIndicatorView (4.4.0):
+    - NVActivityIndicatorView/Presenter (= 4.4.0)
+  - NVActivityIndicatorView/Presenter (4.4.0)
+  - Protobuf (3.6.1)
+  - Segmentio (3.0)
+  - SideMenuController (0.2.4)
+  - SimpleCheckbox (1.5.0)
+  - StepIndicator (1.0.6.1)
+  - SwiftyJSON (4.2.0)
+  - TwicketSegmentedControl (0.1.2)
+
+DEPENDENCIES:
+  - Alamofire
+  - Berry
+  - BetterSegmentedControl (~> 1.0)
+  - CDAlertView
+  - Charts
+  - Cosmos (~> 17.0)
+  - DropDown
+  - Dropdowns
+  - Firebase/Core
+  - Firebase/Messaging
+  - GoogleMaps
+  - GooglePlaces
+  - ImageSlideshow (~> 1.6)
+  - ImageSlideshow/Alamofire
+  - iOSDropDown
+  - NVActivityIndicatorView
+  - Segmentio
+  - SideMenuController
+  - SimpleCheckbox
+  - StepIndicator (~> 1.0.6)
+  - SwiftyJSON (~> 4.0)
+  - TwicketSegmentedControl
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - AlamofireImage
+    - Berry
+    - BetterSegmentedControl
+    - CDAlertView
+    - Charts
+    - Cosmos
+    - DropDown
+    - Dropdowns
+    - Firebase
+    - FirebaseAnalytics
+    - FirebaseCore
+    - FirebaseInstanceID
+    - FirebaseMessaging
+    - GoogleAppMeasurement
+    - GoogleMaps
+    - GooglePlaces
+    - GoogleUtilities
+    - ImageSlideshow
+    - iOSDropDown
+    - nanopb
+    - NVActivityIndicatorView
+    - Protobuf
+    - Segmentio
+    - SideMenuController
+    - SimpleCheckbox
+    - StepIndicator
+    - SwiftyJSON
+    - TwicketSegmentedControl
+
+SPEC CHECKSUMS:
+  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
+  AlamofireImage: 78d67ccbb763d87ba44b21583d2153500a195630
+  Berry: 58b9001a7f2de37b8fefc3f7728f4499044da1de
+  BetterSegmentedControl: 8cac1f243b5cc747f44c9da655c975d5322243fa
+  CDAlertView: 89450acbd8d882868f2fc4ec6d2b6f128710c779
+  Charts: f122fb70b19847fa5817d018b77d6c5a2296ab25
+  Cosmos: 309e489f21ffc91a1eeecfebef7f817cd2fcfba6
+  DropDown: d187d4abdfa708a2990aff0f4fcfab77c6b161df
+  Dropdowns: 9dd32d9ac9cc59e56ae093b588d35477abde32d2
+  Firebase: 6691d47562a780c26281ce8464518faafc90c610
+  FirebaseAnalytics: 831f1f127f4a75698e9875a87bf7e2668730d953
+  FirebaseCore: c6079de64c1a87000e52e9b408dddcadc901177f
+  FirebaseInstanceID: 78ba376fcd5b94c001f9999b2cbd3d1f1e56e78d
+  FirebaseMessaging: 000b32447b461b34b6b912b23ec11be20b503b5b
+  GoogleAppMeasurement: 2b3a023a61239c8d002e6e4fcf4abce8eddce0e0
+  GoogleMaps: f79af95cb24d869457b1f961c93d3ce8b2f3b848
+  GooglePlaces: 3d06e6c99654545b4738ce49648745779c25f2ef
+  GoogleUtilities: 82f04aeff8426309dbdbc75f6c8accd1e584a5da
+  ImageSlideshow: f8eec5e37a980f60923b585ff23b0e140fd24018
+  iOSDropDown: 90608a7270234c503260ef13314907b6703b39aa
+  nanopb: 5601e6bca2dbf1ed831b519092ec110f66982ca3
+  NVActivityIndicatorView: ec7440a57af2450319d3a4181cca7da6fc127064
+  Protobuf: 1eb9700044745f00181c136ef21b8ff3ad5a0fd5
+  Segmentio: 1607fba3b42230f5f91e997d1a3f337f1176674c
+  SideMenuController: b463d2b3aa58e2afe57f57a07938fa9a647894ca
+  SimpleCheckbox: 1e59697852ef3caa56a0ed1b40be0f034763b9b9
+  StepIndicator: 73b4bcc8bcf816cb98479d99ada7e85463252caa
+  SwiftyJSON: c4bcba26dd9ec7a027fc8eade48e2c911f229e96
+  TwicketSegmentedControl: 6d7a4cf243657e0ac3f00d06d873a25334c04042
+
+PODFILE CHECKSUM: 8f800d026ff892ecaeb796c8eedc06307c31e95a
+
+COCOAPODS: 1.5.3
